@@ -1,14 +1,6 @@
-- link: //www.twitter.com/twitter_handle 
+- link: https://twitter.com/hpschrei
   icon: icon-twitter
-- link: //plus.google.com/+googlePlusName 
-  icon: icon-google2
-- link: //github.com/GithubHandle 
+- link: //github.com/hpschrei 
   icon: icon-github
-- link: //www.flickr.com/photos/FlickrUserID 
-  icon: icon-flickr3
-- link: /feed 
-  icon: icon-rss2
-- link: //vimeo.com/vimeo-id
-  icon: icon-vimeo2
-- link: //www.linkedin.com/
+- link: //linkedin.com/in/hpschrei/
   icon: icon-linkedin
