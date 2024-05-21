@@ -1,4 +1,4 @@
-baseURL: "https://example.org/"
+baseURL: "https://hp-hugo.web.app/"
 languageCode: "en-us"
 title: "HP's tufte themed blog"
 theme: "hugo-tufte"
