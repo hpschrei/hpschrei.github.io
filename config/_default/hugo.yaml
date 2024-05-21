@@ -1,0 +1,8 @@
+baseURL: "https://example.org/"
+languageCode: "en-us"
+title: "HP's tufte themed blog"
+theme: "hugo-tufte"
+
+baseurl: "https://hp-tufte.com/"
+
+canonifyurls: true

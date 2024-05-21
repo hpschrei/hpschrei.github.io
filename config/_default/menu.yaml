@@ -1,0 +1,25 @@
+nav:
+  - name: Home
+    weight: -110
+    identifier: home
+    url: /
+  - name: Posts
+    weight: -100
+    identifier: posts
+    url: /posts/
+  - name: A-Book
+    weight: -95
+    identifier: book
+    url: /a-book/
+  - name: Categories
+    weight: -90
+    identifier: categories
+    url: /categories/
+  - name: About
+    weight: -80
+    identifier: about
+    url: /about/
+  - name: Source Code
+    weight: -70
+    identifier: github
+    url: "https://github.com/loikein/hugo-tufte"
