@@ -1,36 +1,38 @@
 {{ define "main" }}
 
 <div id="layout" class="pure-g">
-<article class="pure-u-1">
+  <article class="pure-u-1">
 
-{{ partial "brand.html" . }}
-{{ partial "content.header.html" . }}
-
-<section class="list-page">
-{{ range .Data.Pages.GroupByDate "2006" }}
-  <ul>
-  <li class="year">{{ .Key }} ({{ len .Pages }})</li>
-    {{ range .Pages.GroupByDate "January" }}
-    <ul>
-    <li>{{ .Key }} ({{ len .Pages }})</li>
+    {{ partial "brand.html" . }}
+    {{ partial "content.header.html" . }}
+    {{ .Params.Title }}
+    <section class="list-page">
+      {{ range .Data.Pages.GroupByDate "2006" }}
+      <p>{{ .Key }}</p>
+      {{ range .Pages.GroupByDate "January" }}
       {{ range .Pages }}
-      <ul>
-      <li>
-        <span class="list-date">{{ .Date.Format "Jan 2" }} &middot;</span>
-        <a href="{{ .RelPermalink }}">{{.Title}}</a>
-      </li>
+      <ul class="content-listing">
+        <li class="listing">
+          <span class="list-date">
+            <h3>{{ .Date.Format "Jan 2" }} &middot;
+          </span>
+          <a href="{{ .RelPermalink }}">
+            {{.Title}}</h3>
+          </a>
+          <hr class="slender">
+        </li>
       </ul>
+
       {{ end }}
-    </li>
-    </ul>
-    {{ end }}
-  </ul>
-  {{ end }}
-</section>
+      </li>
+      {{ end }}
 
-{{ partial "footer.html" . }}
+      {{ end }}
+    </section>
 
-</article>
+    {{ partial "footer.html" . }}
+
+  </article>
 </div>
 
 {{ end }}

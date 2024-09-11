@@ -15,7 +15,6 @@ jobs:
         with:
           hugo-version: "0.126.1"
           extended: true
-      - run: hugo -v
       - run: hugo --gc
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:

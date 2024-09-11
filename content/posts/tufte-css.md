@@ -5,8 +5,8 @@ title: Tufte CSS
 # subtitle: A CSS library for creating beautiful Tufte-inspired HTML documents.
 meta: true
 math: true
-toc: false
-hideDate: true
+toc: true
+hideDate: false
 hideReadTime: true
 # categories: [tufte-css]
 ---

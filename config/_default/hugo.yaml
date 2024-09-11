@@ -1,8 +1,23 @@
-baseURL: "https://hp-hugo.web.app/"
 languageCode: "en-us"
-title: "HP's tufte themed blog"
+title: "HP's blog"
 theme: "hugo-tufte"
 
-baseurl: "https://hp-tufte.com/"
+baseurl: "https://hp-hugo.web.app/"
 
 canonifyurls: true
+
+paginate: 10
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    guessSyntax: true
+
+footer:
+  - name: Custom footer link
+    weight: -90
+    identifier: custom_link
+    url: 'https://example.com'

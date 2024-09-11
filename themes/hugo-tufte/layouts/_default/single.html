@@ -1,11 +1,12 @@
-{{/*  
+{{/*
 
-  This template render single pages 
+This template render single pages
 
 */}}
 
 {{ define "main" }}
 <article id="main">
+  {{ partial "brand.html" . }}
   {{ partial "content.header.html" . }}
   {{ partial "toc.html" . }}
   <section>{{ .Content }}</section>

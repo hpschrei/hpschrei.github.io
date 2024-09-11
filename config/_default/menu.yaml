@@ -7,10 +7,6 @@ nav:
     weight: -100
     identifier: posts
     url: /posts/
-  - name: A-Book
-    weight: -95
-    identifier: book
-    url: /a-book/
   - name: Categories
     weight: -90
     identifier: categories
@@ -19,7 +15,3 @@ nav:
     weight: -80
     identifier: about
     url: /about/
-  - name: Source Code
-    weight: -70
-    identifier: github
-    url: "https://github.com/loikein/hugo-tufte"
