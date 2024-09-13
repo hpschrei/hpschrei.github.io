@@ -8,8 +8,8 @@ codeblocksdark: false
 # Some suggestions: ⊕, 💬, 💭, 📑, 🏷, ✍, 💡, 🧐, 📎, 📌
 marginNoteInd: "⊕"
 # Your name or the name of you company
-# copyright: Copyright 2024
-# copyrightHolder: HP
+copyright: Copyright 2024
+copyrightHolder: HANS-PETER SCHREI
 # Show the "Powered by Hugo-Tufte and Hugo."
 showPoweredBy: false
 # Site wide kill switch for date in pages
@@ -29,13 +29,12 @@ centerArticle: true
 # ######## Common social website links, please comment the unused ones.
 # (if your favorite one is not in the list, please head to the footer menu below and add an entry)
 # Please note that some of the value below are only provided as an exemple, perhaps the computed isn't valid
-# github: slashformotion
-# gitlab: slashformotion
-linkedin: <insert_here>
-# twitter: slashformotion
+github: hpschrei
+linkedin: hpschrei
+twitter: hpschrei
 # patreon: ''
 # youtube: user/ChromeDevelopers # check the end of your youtube url https://www.youtube.com/<copy_this>
-medium: slashformotion
+# medium: slashformotion
 # reddit: Slashformotion
 # stackoverflow: 16609732/slashformotion
 # instagram: google

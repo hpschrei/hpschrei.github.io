@@ -34,8 +34,8 @@ params:
   # Some suggestions: ⊕, 💬, 💭, 📑, 🏷, ✍, 💡, 🧐, 📎, 📌
   marginNoteInd: "⊕"
   # Your name or the name of you company
-  # copyright: Copyright 2023
-  # copyrightHolder: Copyright Holder
+  copyright: Copyright 2024
+  copyrightHolder: HANS-PETER SCHREI
   # Show the "Powered by Hugo-Tufte and Hugo."
   showPoweredBy: false
   # Site wide kill switch for date in pages

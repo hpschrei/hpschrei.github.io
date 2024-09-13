@@ -1,12 +1,23 @@
 .menu {
   margin: 1.4rem 0;
+  display: flex;
+  align-items: center; /* Aligns items vertically centered */
+  margin-left: calc(-100px); /* Offset for the badge */
+}
+
+.menu .badge-wrapper {
+  margin-right: 15px;
+}
+
+.menu .badge-image {
+  width: 85px;
 }
 
 .menu ul {
   font-family: $sans-fonts;
   font-size: 1.2rem;
   list-style: none;
-  display: block;
+  display: inline-block;
   padding: 0;
   max-width: 45rem;
   /* Width is the same as tufte.css body */

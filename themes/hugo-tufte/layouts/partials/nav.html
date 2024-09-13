@@ -1,9 +1,10 @@
 <nav class="menu">
+  <div class="badge-wrapper">
+    <img class="badge-image" src="/img/badge_1.png" alt="">
+  </div>
 
   <ul>
-
     {{ range .Site.Menus.nav }}
-    </a></li>
     <li><a href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></li>
     {{ end }}
   </ul>
