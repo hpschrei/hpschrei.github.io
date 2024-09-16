@@ -20,9 +20,13 @@
       <a href="mailto:{{.Site.Params.mail}}"><span class="icon-mail3"></span></a>
     </li>
     {{ end }}
- 
+
     {{ if isset .Site.Params "twitter" }}
     <li><a href="https://twitter.com/{{.Site.Params.twitter}}"><span class="icon-twitter"></span></a></li>
+    {{ end }}
+
+    {{ if isset .Site.Params "x" }}
+    <li><a href="https://x.com/{{.Site.Params.x}}"><span class="icon-x"></span></a></li>
     {{ end }}
 
 

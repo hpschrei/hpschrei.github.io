@@ -44,6 +44,9 @@
 .icon-twitter:before {
   content: "\ea96";
 }
+.icon-x:before {
+  content: "\e900";
+}
 .icon-rss2:before {
   content: "\ea9c";
 }
