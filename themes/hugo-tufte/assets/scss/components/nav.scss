@@ -1,18 +1,27 @@
 .menu {
   margin: 1.4rem 0;
-  display: flex;
+  display: block;
   align-items: center; /* Aligns items vertically centered */
-  margin-left: calc(-100px); /* Offset for the badge */
 }
 
 .menu .badge-wrapper {
-  margin-right: 15px;
-}
-
-.menu .badge-image {
   width: 85px;
 }
 
+@media screen and (min-width: 1024px) {
+  .menu {
+    margin: 1.4rem 0;
+    display: flex;
+    margin-left: calc(-100px); /* Offset for the badge */
+  }
+
+  .menu .badge-wrapper {
+    margin-right: 15px;
+  }
+  .menu .badge-image {
+    width: 85px;
+  }
+}
 .menu ul {
   font-family: $sans-fonts;
   font-size: 1.2rem;
