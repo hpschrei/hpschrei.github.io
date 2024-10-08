@@ -2,7 +2,7 @@ languageCode: "en-us"
 title: "HP's blog"
 theme: "hugo-tufte"
 
-baseurl: "https://hp-hugo.web.app/"
+baseurl: "https://www.hpschrei.com/"
 
 canonifyurls: true
 
@@ -15,9 +15,8 @@ markup:
   highlight:
     noClasses: false
     guessSyntax: true
-
-footer:
-  - name: Custom footer link
-    weight: -90
-    identifier: custom_link
-    url: 'https://example.com'
+# footer:
+#   - name: Custom footer link
+#     weight: -90
+#     identifier: custom_link
+#     url: 'https://example.com'
